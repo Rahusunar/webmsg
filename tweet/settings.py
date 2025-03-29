@@ -16,7 +16,11 @@ SECRET_KEY = 'django-insecure-qujva-n!h%m&ze*13#em%7j!$2%-(%#)bnp^(k2%)&31mh2t*l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True  # Change to False in production
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = [
+    '127.0.0.1',  # Localhost
+    'localhost',
+    'webmsg.onrender.com',  # Add your Render domain
+]
 
 # Application definition
 INSTALLED_APPS = [
